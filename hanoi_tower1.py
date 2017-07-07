@@ -15,7 +15,7 @@ def print_tower(s):
     keys = list(s.keys())
     keys.sort()
     for k in keys:
-        print("%s: " % k, end="")
+        print("%s: " % k, "")
         print(s[k])
     print("------------------")
 
